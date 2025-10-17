@@ -16,9 +16,9 @@ El modelo recibe indicadores económicos como entrada y devuelve una predicción
 
 ## 📂 Estructura del Proyecto
 
-├── model.ipynb # Notebook donde se entrena el modelo
-├── model.pkl # Modelo entrenado (serializado con joblib)
-├── scaler.pkl # Escalador usado para normalizar los datos
-├── main.py # API con FastAPI
-├── example_request.py # Cliente que consume la API
-└── README.md # Documentación
+├── model.ipynb # Notebook donde se entrena el modelo.
+├── model.pkl # Modelo entrenado (serializado con joblib).
+├── scaler.pkl # Escalador usado para normalizar los datos.
+├── main.py # API con FastAPI.
+├── example_request.py # Cliente que consume la API.
+└── README.md # Documentación.
