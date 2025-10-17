@@ -8,7 +8,7 @@ El modelo utiliza como variables independientes diversas medidas macroeconómica
 
 # 👥 Autores
 - Gerardo Rios.
-- Washington Lizana
+- Washington Lizana.
 
 ---
 
