@@ -6,7 +6,7 @@ El modelo utiliza como variables independientes diversas medidas macroeconómica
 
 ---
 
-# Autores
+# 👥 Autores
 - Gerardo Rios.
 - Washington Lizana
 
@@ -29,10 +29,11 @@ El modelo utiliza como variables independientes diversas medidas macroeconómica
 - example_request.py # Ejemplo de como conectarse a la API.
 - README.md # Documentación.
 ---
-## Librerias Necesarias
-pip install conexion-a-bd.
+## ⚙️ Librerias Necesarias
+- Libreria propia "conexion-a_db" se recomenda instalar individualmente. pip install conexion-a-bd.
+- Otras librerias se pueden instalar directamente con requirements.txt
 
-## Como correr Proyecto
+## 🤖 Como correr Proyecto de ML y FastAPI
 
 - Guardar todos los archivos en una misma carpeta
 - correr model.ipynb, el cual generara 2 archivos .pkl con del modelo
