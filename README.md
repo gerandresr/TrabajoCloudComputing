@@ -6,36 +6,33 @@ El modelo utiliza como variables independientes diversas medidas macroeconómica
 
 ---
 
-## 🚀 Características
-- Entrenamiento del modelo en Jupyter Notebook (`model.ipynb`).
-- Serialización del modelo y del escalador en `.pkl`.
-- API en **FastAPI**.
-- Ejemplo de cliente en Python (`example_request.py`) que realiza solicitudes a la API.
-- Uso de `joblib` y `scikit-learn` para cargar y ejecutar el modelo.
+# Autores
+- Gerardo Rios.
+- Washington Lizana
 
 ---
 
 ## 📂 Estructura y Partes del Proyecto
 
+- Informe.pdf: Documentacion detallada del poyecto y screenshots de funcionamientos Local.
+
 - bd.data_bbg.db: data del proyecto, la base de datos contiene diferentes tablas con informacion diaria de variables financieras.
 - data_getters.py: Crea variables categoricas y financieras, se conecta a la base de datos mediante una libreria propia.
-- model.ipynb # Notebook donde se entrenan el modelos y se elige el "Mejor"
-- model.pkl # Modelo entrenado (serializado con joblib). Creado en Notebook Model.
-- scaler.pkl # Escalador usado para normalizar los datos. Creado en Notebook Model.
-- main.py # API con FastAPI.
+- model.ipynb: Notebook donde se entrenan el modelos y se elige el "Mejor"
+- model.pkl: Modelo entrenado (serializado con joblib). Creado en Notebook Model.
+- scaler.pkl: Escalador usado para normalizar los datos. Creado en Notebook Model.
+- main.py: API con FastAPI.
 
   Otros:
 - saca_datos_bbg_a_db.py: En caso de tener una suscripcion activa a Bloomberg, puedes sacar data actualizada.
 - example_database.ipynb: Notebook con ejemplo de como ocupar la base de datos usando la libreria propia.
 - example_request.py # Ejemplo de como conectarse a la API.
 - README.md # Documentación.
-
-
+---
 ## Librerias Necesarias
 
 pip install conexion-a-bd.
 
+## Como correr Proyecto
 
-# Autores
-- Gerardo Rios.
-- Washington Lizana
+
