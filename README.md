@@ -28,10 +28,14 @@ El modelo utiliza como variables independientes diversas medidas macroeconómica
 - example_database.ipynb: Notebook con ejemplo de como ocupar la base de datos usando la libreria propia.
 - example_request.py # Ejemplo de como conectarse a la API.
 - README.md # Documentación.
+  
 ---
+
 ## ⚙️ Librerias Necesarias
 - Libreria propia "conexion-a_db" se recomenda instalar individualmente. pip install conexion-a-bd.
 - Otras librerias se pueden instalar directamente con requirements.txt
+
+---
 
 ## 🤖 Como correr Proyecto de ML y FastAPI
 
