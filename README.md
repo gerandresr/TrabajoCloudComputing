@@ -23,7 +23,7 @@ El modelo utiliza como variables independientes diversas medidas macroeconómica
 - scaler.pkl: Escalador usado para normalizar los datos. Creado en Notebook Model.
 - main.py: API con FastAPI.
 
-  Otros:
+ # Otros:
 - saca_datos_bbg_a_db.py: En caso de tener una suscripcion activa a Bloomberg, puedes sacar data actualizada.
 - example_database.ipynb: Notebook con ejemplo de como ocupar la base de datos usando la libreria propia.
 - example_request.py # Ejemplo de como conectarse a la API.
