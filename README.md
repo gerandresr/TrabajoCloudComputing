@@ -1,7 +1,8 @@
 # 📊 API de Predicción con FastAPI y Scikit-learn
 
-Este proyecto implementa un modelo de **Machine Learning** (entrenado en un Jupyter Notebook y guardado como `.pkl`) y lo expone a través de una **API REST con FastAPI**.  
-El modelo recibe indicadores económicos como entrada y devuelve una predicción.
+Modelo de Machine Learning que busca predecir el evento de un alza del tipo de cambio USD-CLP para el día siguiente. Este Modelo es una Red Neuronal que se desarrolló por el área de Trading de la Mesa de Dinero de BancoEstado y que actualmente está en uso.
+
+El modelo utiliza como variables independientes diversas medidas macroeconómicas, como Tasas de Interés, Inflación, entre otros.
 
 ---
 
