@@ -28,7 +28,7 @@ El modelo utiliza como variables independientes diversas medidas macroeconómica
 - example_database.ipynb: Notebook con ejemplo de como ocupar la base de datos usando la libreria propia.
 - example_request.py: Ejemplo de como conectarse a la API.
 - requirements.txt: Librerias necesarias
-- README.md # Documentación.
+- README.md: Documentación.
   
 ---
 
