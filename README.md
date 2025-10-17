@@ -26,7 +26,8 @@ El modelo utiliza como variables independientes diversas medidas macroeconómica
 ### Otros:
 - saca_datos_bbg_a_db.py: En caso de tener una suscripcion activa a Bloomberg, puedes sacar data actualizada.
 - example_database.ipynb: Notebook con ejemplo de como ocupar la base de datos usando la libreria propia.
-- example_request.py # Ejemplo de como conectarse a la API.
+- example_request.py: Ejemplo de como conectarse a la API.
+- requirements.txt: Librerias necesarias
 - README.md # Documentación.
   
 ---
