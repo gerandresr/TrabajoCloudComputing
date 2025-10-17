@@ -34,4 +34,9 @@ pip install conexion-a-bd.
 
 ## Como correr Proyecto
 
-
+- Guardar todos los archivos en una misma carpeta
+- correr model.ipynb, el cual generara 2 archivos .pkl con del modelo
+- generar la api con fast api:
+- En la terminal escribir "fastapi dev main.py"
+- Ejecutar api, como por ejemplo con example_request.py
+- abrir nueva terminal y escribir "python example_request.py"
