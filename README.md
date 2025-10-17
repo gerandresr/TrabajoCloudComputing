@@ -1,4 +1,4 @@
-# 📊 API de Predicción con FastAPI y Scikit-learn
+# 📊 API de Predicción del USDCLP con FastAPI y MachineLearning
 
 Modelo de Machine Learning que busca predecir el evento de un alza del tipo de cambio USD-CLP para el día siguiente. Este Modelo es una Red Neuronal que se desarrolló por el área de Trading de la Mesa de Dinero de BancoEstado y que actualmente está en uso.
 
