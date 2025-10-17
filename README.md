@@ -19,15 +19,15 @@ El modelo utiliza como variables independientes diversas medidas macroeconómica
 
 - bd.data_bbg.db: data del proyecto, la base de datos contiene diferentes tablas con informacion diaria de variables financieras.
 - data_getters.py: Crea variables categoricas y financieras, se conecta a la base de datos mediante una libreria propia.
-
-
-- example_request.py # Se conecta a la base de datos
-
-- model.ipynb # Notebook donde se entrena el modelo. Se conecta a 
-- model.pkl # Modelo entrenado (serializado con joblib).
-- scaler.pkl # Escalador usado para normalizar los datos.
+- model.ipynb # Notebook donde se entrenan el modelos y se elige el "Mejor"
+- model.pkl # Modelo entrenado (serializado con joblib). Creado en Notebook Model.
+- scaler.pkl # Escalador usado para normalizar los datos. Creado en Notebook Model.
 - main.py # API con FastAPI.
 
+  Otros:
+- saca_datos_bbg_a_db.py: En caso de tener una suscripcion activa a Bloomberg, puedes sacar data actualizada.
+- example_database.ipynb: Notebook con ejemplo de como ocupar la base de datos usando la libreria propia.
+- example_request.py # Ejemplo de como conectarse a la API.
 - README.md # Documentación.
 
 
