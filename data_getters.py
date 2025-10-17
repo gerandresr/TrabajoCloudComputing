@@ -77,7 +77,7 @@ def add_macro_indicators(df_macro):
     df_macro = diff_tasas(df_macro)
     return df_macro
 
-def get_technical_dataframe(ruta : str = "./DATA/db_data_bbg.db"): # type: ignore
+def get_technical_dataframe(ruta : str = "./db_data_bbg.db"): # type: ignore
     import pandas as pd
     import numpy as np
     import conexion_a_db as db
@@ -123,7 +123,7 @@ def get_technical_dataframe(ruta : str = "./DATA/db_data_bbg.db"): # type: ignor
     df_final = df_final.dropna().reset_index(drop=True)
     return df_final
 
-def get_macro_dataframe(ruta:str = "./DATA/db_data_bbg.db"):
+def get_macro_dataframe(ruta:str = "./db_data_bbg.db"):
 
     import pandas as pd
     import numpy as np
