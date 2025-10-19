@@ -33,7 +33,7 @@ El modelo utiliza como variables independientes, diversas medidas macroeconómic
 ---
 
 ## ⚙️ Librerias Necesarias
-- Libreria propia "conexion-a-db" se recomenda instalar individualmente. "pip install conexion-a-bd". https://pypi.org/project/conexion-a-db/
+- Libreria propia "conexion-a-db" se recomenda instalar individualmente. "pip install conexion-a-db". https://pypi.org/project/conexion-a-db/
 - Otras librerias se pueden instalar directamente con requirements.txt
 
 ---
