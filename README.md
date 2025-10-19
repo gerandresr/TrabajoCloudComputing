@@ -45,4 +45,4 @@ El modelo utiliza como variables independientes diversas medidas macroeconómica
 - generar la api con fast api:
 - En la terminal escribir "fastapi dev main.py"
 - Ejecutar api, como por ejemplo con example_request.py, para esto:
-+ abrir nueva terminal y escribir "python example_request.py"
+-> Abrir nueva terminal y escribir "python example_request.py"
