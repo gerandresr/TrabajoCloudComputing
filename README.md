@@ -16,7 +16,7 @@ El modelo utiliza como variables independientes diversas medidas macroeconómica
 
 ### Ejecucion y explicación del Poyecto:
 - Informe.pdf: Documentacion detallada del poyecto y screenshots de funcionamiento corriendo Localmente.
-### Data necesaria:
+### Archivos necesarios:
 - bd.data_bbg.db: data del proyecto, la base de datos contiene diferentes tablas con informacion diaria de variables financieras.
 - data_getters.py: Crea variables categoricas y financieras, se conecta a la base de datos mediante una libreria propia.
 - model.ipynb: Notebook donde se entrenan el modelos y se elige el "Mejor"
