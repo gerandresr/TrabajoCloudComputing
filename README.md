@@ -17,7 +17,7 @@ El modelo utiliza como variables independientes, diversas medidas macroeconómic
 ### Ejecucion y explicación del Poyecto:
 - Informe.pdf: Documentacion detallada del poyecto y screenshots de funcionamiento corriendo Localmente.
 ### Archivos necesarios:
-- bd.data_bbg.db: data del proyecto, la base de datos contiene diferentes tablas con informacion diaria de variables financieras.
+- bd.data_bbg.db: Data del proyecto, la base de datos contiene diferentes tablas con informacion diaria de variables financieras.
 - data_getters.py: Crea variables categoricas y financieras, se conecta a la base de datos mediante una libreria propia.
 - model.ipynb: Notebook donde se entrenan el modelos y se elige el "Mejor"
 - model.pkl: Modelo entrenado (serializado con joblib). Creado en Notebook Model.
@@ -33,7 +33,7 @@ El modelo utiliza como variables independientes, diversas medidas macroeconómic
 ---
 
 ## ⚙️ Librerias Necesarias
-- Libreria propia "conexion-a_db" se recomenda instalar individualmente. pip install conexion-a-bd.
+- Libreria propia "conexion-a-db" se recomenda instalar individualmente. "pip install conexion-a-bd". https://pypi.org/project/conexion-a-db/
 - Otras librerias se pueden instalar directamente con requirements.txt
 
 ---
